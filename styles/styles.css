@@ -1,3 +1,13 @@
+header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
