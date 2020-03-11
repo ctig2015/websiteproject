@@ -123,3 +123,12 @@ hr {
     border: 1px solid #ccc;  
   }
 }
+main {
+    
+}
+
+.col_detail{
+   column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: 10px;
+    padding: 2px;
