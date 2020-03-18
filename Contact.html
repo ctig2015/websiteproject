@@ -1,0 +1,108 @@
+
+<!DOCTYPE HTML>
+<!-- Author : Christopher COleman
+   Date Created: 30-01-2020
+   Page Description - Website Project-->
+   
+<html lang="en">											<!-- Primary Language -->
+<head>
+<meta charset="utf-8"/>   									 <!-- Character Encoding-->
+<meta name="description" content="Company Website">
+<meta name="keywords" content="computer,simrigs,simulation,custom pc,">
+<meta name="authors" content="Christopher Coleman">
+<title>The Computer </title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>														<!-- Start of main body -->		
+<header>
+  
+        <img style="float: left; height: 50px; width: 50px;" src="images/LOGO.png" alt="logo">
+           
+      <center><h1>The Computer Place</h1></center>                                                                                    
+    
+     
+
+ 
+            <nav>
+                <ul>
+                      <li id ="active"> <a href="index.html"> Home </a></li>
+                    <li><a href="Sim_Rig.html"> Sim_Rig </a></li>
+                      <li><a href="Custom_Pc.html"> Custom Pcs </a></li>
+                  
+                    
+                      
+                 </ul>
+            </nav>
+
+
+</header>
+    <br>
+    <br>
+    <br>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+  <a href="#">Contact</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <br>
+    <br>
+    <center><h1>The Computer Place</h1></center>
+   <main>
+         
+    <section> 
+        <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+            <br>
+            <label for="first_name">First Name:<span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofocus required><br>
+            <label for="last_name">Last Name:<span class="required">*</span></label>
+            <input type="text" name="last_name" id="last_name" required><br>
+            <label for="email">Email:<span class="required">*</span></label>
+            <input type="email" name="email" id="email" required placeholder="johndoe@example"><br>
+            <label for="gender">Gender :</label>
+            <input type="radio" id="gender1" name="genger1" value="male"> Male
+            <input type="radio" id="gender2" name="genger2" value="male"> Female
+            <input type="radio" id="gender" name="genger" value="other checked">Other <br> 
+            <label for ="internet">Heard of us :</label>
+        <fieldset>
+            <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet<br>
+            <input type="checkbox" class="margenl" id="hearr" name="paper" value="paper" > NewPaper<br>
+            <input type="checkbox" class="margenl" id="hear" name="friend" value="friend" > Friend<br>
+            <input type="checkbox" class="margenl" id="hear1" name="Add" value="Add" > Other<br>
+        </fieldset>
+            <br>
+            <label for="message">Query :</label>
+            <textarea cols="40" rows="6" id="message" name="message" placeholder="your message must be less than 200 characters" data-maxlength="200"></textarea>
+            <br>
+            <br>
+            <input type="submit" name="submit" id="button" value="Submit"><br>
+            <input type="reset" name="reset" id="reset">
+        
+        </form>
+     <p style="margin-left: 138px"> <span class="required">*</span> <em> indicate a requuired field</em></p>
+        
+    
+    </section> 
+
+    
+   
+</main>
+<footer>
+  <p>Posted by: Christopher Coleman</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+</body>
+</html>
