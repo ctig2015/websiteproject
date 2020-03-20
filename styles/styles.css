@@ -35,11 +35,12 @@ li a {
 }
 
 body {
-    background-color: floralwhite;
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    font-family: sans-serif;
-     
+    
+        background-image: url(../images/44451227265_647d10b008_b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+       
 }
 
 
@@ -262,7 +263,54 @@ aside {
     border: 2px;
     border-bottom-color: blue;
     margin: 2px;
+    
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
 
 
 
 
+
+
+
+
+iframe {
+    float: left
+}
+
+#sectionMine {
+  border: 1px solid black;
+  margin: 3px 50px 75px 500px;
+    border: 1px solid black;
+}
+
+#bigPic {
+    width:1333px;
+    height:500px;
+    
+    margin: 3px 50px 75px 10px;
+    border: 1px solid black;
+}
+}
