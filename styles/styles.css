@@ -37,7 +37,7 @@ li a {
 
 body {
     
-        background-image: url(../images/44451227265_647d10b008_b.jpg);
+        background-image: url(../images/ubuntu-785622_1280.png);
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
@@ -133,7 +133,7 @@ P {
 section1 {
     width: 400px;
   height: 100px;
-  border: 1px solid blue;
+  border: 1px;
 
 }
 
@@ -302,7 +302,7 @@ iframe {
 }
 
 #sectionMine {
-  border: 1px solid black;
+  border: 1px ;
   margin: 3px 50px 75px 500px;
    
     
@@ -325,8 +325,8 @@ margin-top: 10px;
 }
 
 #bigPic {
-    width: 1260px;
-    margin: 10px;
+    width: 1265px;
+    margin: 1px;
 }
 
 nav {
@@ -341,3 +341,5 @@ section {
 main {
     margin: 2px;
 }
+
+
