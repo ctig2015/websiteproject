@@ -438,3 +438,13 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+}
+#maps {
+    width: 100%;
+}
