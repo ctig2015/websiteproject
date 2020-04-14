@@ -36,14 +36,8 @@
 
 
 </header>
-    <br>
-    <br>
-    <br>
-    <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  
-  <a href="#">Contact</a>
-</div>
+    
+   
 
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
@@ -57,43 +51,18 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-    <br>
-    <br>
+    
     <center><h1>The Computer Place</h1></center>
    <main>
          
     <section> 
         <form action="http://year1.ccpdev.me/FormTest.php" method="post">
-            <br>
-            <label for="first_name">First Name:<span class="required">*</span></label>
-            <input type="text" name="first_name" id="first_name" autofocus required><br>
-            <label for="last_name">Last Name:<span class="required">*</span></label>
-            <input type="text" name="last_name" id="last_name" required><br>
-            <label for="email">Email:<span class="required">*</span></label>
-            <input type="email" name="email" id="email" required placeholder="johndoe@example"><br>
-            <label for="gender">Gender :</label>
-            <input type="radio" id="gender1" name="genger1" value="male"> Male
-            <input type="radio" id="gender2" name="genger2" value="male"> Female
-            <input type="radio" id="gender" name="genger" value="other checked">Other <br> 
-            <label for ="internet">Heard of us :</label>
-        <fieldset>
-            <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet<br>
-            <input type="checkbox" class="margenl" id="hearr" name="paper" value="paper" > NewPaper<br>
-            <input type="checkbox" class="margenl" id="hear" name="friend" value="friend" > Friend<br>
-            <input type="checkbox" class="margenl" id="hear1" name="Add" value="Add" > Other<br>
-        </fieldset>
-            <br>
-            <label for="message">Query :</label>
-            <textarea cols="40" rows="6" id="message" name="message" placeholder="your message must be less than 200 characters" data-maxlength="200"></textarea>
-            <br>
-            <br>
-            <input type="submit" name="submit" id="button" value="Submit"><br>
-            <input type="reset" name="reset" id="reset">
-        
-        </form>
-     <p style="margin-left: 138px"> <span class="required">*</span> <em> indicate a requuired field</em></p>
-        
-    
+                  <h1>Contact Form</h1>
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
     </section> 
 
     
